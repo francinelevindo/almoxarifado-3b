@@ -15,7 +15,7 @@ class MovimentosTable
     {
         return $table
             ->columns([
-                TextColumn::make('produto_id')
+                TextColumn::make('produto.nome')
                     ->numeric()
                     ->sortable(),
                 TextColumn::make('quantidade')

@@ -16,10 +16,9 @@ class CreateMovimento extends CreateRecord
      * o que a função before Create faz ?
      * *
      * @param $data recebe uma lista  produto
-     * @param $produto recebe id   produtos id (selecionado pelo usuário) na tela de Movimentos 
-     * @param $quantidade recebe o valor do campo quantidade do $produto
-     * @param $tipo  recebe o valor do campo tipo da lista produt deve se menor que o valor 
-     * 
+     * @param $produto recebe o id  do produtos (sa ser elecionado pelo usuário) na tela de Movimentos 
+     * @param $quantidade recebe o valor do campo quantidade do $produto anteriormente selecionado
+     * @param $tipo  recebe o valor do campo tipo do $produto anteriormente selecionado
      */
 
     protected function beforeCreate(): void
